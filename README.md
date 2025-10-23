@@ -1,7 +1,21 @@
-# Ally — Your AI Business Copilot 🚀
+# Ally — Your AI Business Copilot
 
-Ally is an all-in-one AI assistant built for entrepreneurs, startups, and small business owners.  
-It automates repetitive tasks, manages reports, and gives real-time insights to help you make smarter business decisions — all in one dashboard.
+Ally is an AI-powered business copilot that helps entrepreneurs and small business owners save time and grow smarter.
+
+## Features
+
+- **Automation**: Automate emails, meetings, tasks, invoices, and reports
+- **Integration**: Connect with Shopify, Instagram, WhatsApp, websites, and CRMs
+- **Intelligence**: AI-powered insights, predictions, and strategy suggestions
+
+## Tech Stack
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Aurora Background Effects
 
 ---
 
