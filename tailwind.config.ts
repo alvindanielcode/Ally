@@ -2,10 +2,10 @@ import type { Config } from "tailwindcss";
 
 // @ts-ignore
 function addVariablesForColors({ addBase, theme }) {
-  const flattenColorPalette = require("tailwindcss/lib/util/flattenColorPalette").default;
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  // Simplified version that doesn't require the flattenColorPalette utility
+  const colors = theme("colors");
+  const newVars = Object.fromEntries(
+    Object.entries(colors).map(([key, val]) => [`--${key}`, val])
   );
 
   addBase({
